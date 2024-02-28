@@ -70,11 +70,14 @@ export const ProductCreate: React.FC<IResourceComponentsProps> = () => {
           </label>
           <select
             className="input input-sm input-bordered"
-            placeholder="Select category"
+            defaultValue="" // Set an empty value as default
             {...register("category.id", {
               required: "This field is required",
             })}
           >
+            <option value="" disabled hidden>
+              Select category
+            </option>
             {categoryOptions?.map((option) => (
               <option value={option.value} key={option.value}>
                 {option.label}

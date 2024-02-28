@@ -84,18 +84,20 @@ export const ProductEdit: React.FC<IResourceComponentsProps> = () => {
         <div className="form-control my-4">
           <label className="label">Category</label>
           <select
-            className="input input-sm input-bordered"
-            placeholder="Select category"
-            {...register("category.id", {
-              required: "This field is required",
-            })}
-          >
-            {categoryOptions?.map((option) => (
-              <option value={option.value} key={option.value}>
-                {option.label}
-              </option>
-            ))}
-          </select>
+          className="input input-sm input-bordered"
+          {...register("category.id", {
+            required: "This field is required",
+          })}
+        >
+          <option value="" disabled hidden>
+            Select category
+          </option>
+          {categoryOptions?.map((option) => (
+            <option value={option.value} key={option.value}>
+              {option.label}
+            </option>
+          ))}
+        </select>
           <span style={{ color: "red" }}>
             {(errors as any)?.category?.id?.message as string}
           </span>
