@@ -7,15 +7,15 @@ import { DateRangePicker } from "react-date-range";
 import "react-date-range/dist/styles.css"; // main css file
 import "react-date-range/dist/theme/default.css"; // theme css file
 import Skeleton from "react-loading-skeleton";
-import {firstData,secondData} from '../../../data/data.js';
+import {firstData,secondData} from '../../../data/data';
  
 
 const UpdatedChart: React.FC = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 	const menuRef = useRef<HTMLDivElement>(null);
-	const [xAxis, setXAxis] = useState([]);
-	const [primaryData, setPrimaryData] = useState([]);
-	const [secondaryData, setSecondaryData] = useState([]);
+	const [primaryData, setPrimaryData] = useState<any[]>([]);
+    const [secondaryData, setSecondaryData] = useState<any[]>([]);
+    const [xAxis, setXAxis] = useState<any[]>([]);
 	const [isLoading, setIsLoading] = useState(false);
 
 	
@@ -41,17 +41,18 @@ const UpdatedChart: React.FC = () => {
 
 	const [showCalendar, setShowCalendar] = useState(false);
 	const [selectionRange, setSelectionRange] = useState({
-		startDate: startD,
-		endDate: endD,
-		key: "selection",
-	});
+        startDate: new Date(),
+        endDate: new Date(),
+        key: 'selection',
+      });
+      
 	const calendarRef = useRef(null);
 
 	useEffect(() => {
-		const handleOutsideClick = (event) => {
-			if (calendarRef.current && !calendarRef.current.contains(event.target)) {
-				setShowCalendar(false);
-			}
+		const handleOutsideClick = (event:MouseEvent) => {
+            if (calendarRef.current && !((calendarRef.current as any).contains(event.target as Node))) {
+                setShowCalendar(false);
+              }
 		};
 
 		document.addEventListener("mousedown", handleOutsideClick);
@@ -61,7 +62,7 @@ const UpdatedChart: React.FC = () => {
 		};
 	}, []);
 
-	const handleSelect = (ranges) => {
+	const handleSelect = (ranges:any) => {
 		
 		setSelectionRange(ranges.selection);
 		setStartD(ranges.selection.startDate);
@@ -80,19 +81,19 @@ const UpdatedChart: React.FC = () => {
         setStartD(selectDate);
         setEndD(endDate);
 		console.log("startDate", selectDate, "endDate", endDate);
-		const filteredDatesPrimary = firstData.filter((data) => {
+		const filteredDatesPrimary = firstData.filter((data:any) => {
 			const date = new Date(data.date);
 			return (
 				date >= ranges.selection.startDate && date <= ranges.selection.endDate
 			);
 		});
-		const filteredDatesSecondary = secondData.filter((data) => {
+		const filteredDatesSecondary = secondData.filter((data:any) => {
 			const date = new Date(data.date);
 			return (
 				date >= ranges.selection.startDate && date <= ranges.selection.endDate
 			);
 		});
-		const axisData = filteredDatesPrimary.map((data) => data.date);
+		const axisData = filteredDatesPrimary.map((data:any) => data.date);
 		console.log(axisData, "axisData");
 		setPrimaryData(filteredDatesPrimary);
 		setSecondaryData(filteredDatesSecondary);
@@ -186,9 +187,9 @@ const UpdatedChart: React.FC = () => {
 	}, [primaryData, secondaryData, xAxis]);
 
 	useEffect(() => {
-		const primaryValues = firstData.map((data) => data.value);
-		const secondaryValues = secondData.map((data) => data.value);
-		const xAxisValues = firstData.map((data) => data.date);
+		const primaryValues = firstData.map((data:any) => data.value);
+		const secondaryValues = secondData.map((data:any) => data.value);
+		const xAxisValues = firstData.map((data:any) => data.date);
 		console.log(xAxisValues, "xAxisValues");
 		setXAxis(xAxisValues);
 		setPrimaryData(primaryValues);
@@ -410,7 +411,7 @@ const UpdatedChart: React.FC = () => {
 							</div>
 						</div>
 					</div>
-					<div className="w-full flex bg-white" ref={calendarRef}>
+					<div className="w-full px-4 flex bg-white" ref={calendarRef}>
                         <p className="font-semibold">Select date range: </p>
 						<input
 							className="ml-4 text-center w-1/5 border-2 "
@@ -422,8 +423,7 @@ const UpdatedChart: React.FC = () => {
 						/>
 						{showCalendar && (
 							<DateRangePicker
-								showSelectionPreview={false}
-								ranges={[selectionRange]}
+								ranges={[{ ...selectionRange }]}
 								onChange={handleSelect}
 							/>
 						)}
