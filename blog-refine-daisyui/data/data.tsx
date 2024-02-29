@@ -1,4 +1,129 @@
-export const firstData = [
+
+ export const firstData = [
+    {
+        date: "Jan 1, 2024",
+        value: 650,
+    },
+    {
+        date: "Jan 2, 2024",
+        value: 750,
+    },
+    {
+        date: "Jan 3, 2024",
+        value: 600,
+    },
+    {
+        date: "Jan 4, 2024",
+        value: 550,
+    },
+    {
+        date: "Jan 5, 2024",
+        value: 500,
+    },
+    {
+        date: "Jan 6, 2024",
+        value: 850,
+    },
+    {
+        date: "Jan 7, 2024",
+        value: 950,
+    },
+    {
+        date: "Jan 8, 2024",
+        value: 870,
+    },
+    {
+        date: "Jan 9, 2024",
+        value: 980,
+    },
+    {
+        date: "Jan 10, 2024",
+        value: 1450,
+    },
+    {
+        date: "Jan 11, 2024",
+        value: 1500,
+    },
+    {
+        date: "Jan 12, 2024",
+        value: 1550,
+    },
+    {
+        date: "Jan 13, 2024",
+        value: 1600,
+    },
+    {
+        date: "Jan 14, 2024",
+        value: 1650,
+    },
+    {
+        date: "Jan 15, 2024",
+        value: 1700,
+    },
+    {
+        date: "Jan 16, 2024",
+        value: 1750,
+    },
+    {
+        date: "Jan 17, 2024",
+        value: 1800,
+    },
+    {
+        date: "Jan 18, 2024",
+        value: 1850,
+    },
+    {
+        date: "Jan 19, 2024",
+        value: 1900,
+    },
+    {
+        date: "Jan 20, 2024",
+        value: 1950,
+    },
+    {
+        date: "Jan 21, 2024",
+        value: 2000,
+    },
+    {
+        date: "Jan 22, 2024",
+        value: 2050,
+    },
+    {
+        date: "Jan 23, 2024",
+        value: 2100,
+    },
+    {
+        date: "Jan 24, 2024",
+        value: 2150,
+    },
+    {
+        date: "Jan 25, 2024",
+        value: 2200,
+    },
+    {
+        date: "Jan 26, 2024",
+        value: 2250,
+    },
+    {
+        date: "Jan 27, 2024",
+        value: 2300,
+    },
+    {
+        date: "Jan 28, 2024",
+        value: 2350,
+    },
+    {
+        date: "Jan 29, 2024",
+        value: 2400,
+    },
+    {
+        date: "Jan 30, 2024",
+        value: 2450,
+    },
+    {
+        date: "Jan 31, 2024",
+        value: 2500,
+    },
     {
         date: "Feb 1, 2024",
         value: 984,
@@ -121,128 +246,252 @@ export const firstData = [
     },
 ];
 
+
+
 export const secondData = [
     {
+        date: "Jan 1, 2024",
+        value: 850,
+    },
+    {
+        date: "Jan 2, 2024",
+        value: 800,
+    },
+    {
+        date: "Jan 3, 2024",
+        value: 720,
+    },
+    {
+        date: "Jan 4, 2024",
+        value: 920,
+    },
+    {
+        date: "Jan 5, 2024",
+        value: 670,
+    },
+    {
+        date: "Jan 6, 2024",
+        value: 880,
+    },
+    {
+        date: "Jan 7, 2024",
+        value: 780,
+    },
+    {
+        date: "Jan 8, 2024",
+        value: 800,
+    },
+    {
+        date: "Jan 9, 2024",
+        value: 760,
+    },
+    {
+        date: "Jan 10, 2024",
+        value: 680,
+    },
+    {
+        date: "Jan 11, 2024",
+        value: 1550,
+    },
+    {
+        date: "Jan 12, 2024",
+        value: 1620,
+    },
+    {
+        date: "Jan 13, 2024",
+        value: 1690,
+    },
+    {
+        date: "Jan 14, 2024",
+        value: 1760,
+    },
+    {
+        date: "Jan 15, 2024",
+        value: 1830,
+    },
+    {
+        date: "Jan 16, 2024",
+        value: 1900,
+    },
+    {
+        date: "Jan 17, 2024",
+        value: 1970,
+    },
+    {
+        date: "Jan 18, 2024",
+        value: 2040,
+    },
+    {
+        date: "Jan 19, 2024",
+        value: 2110,
+    },
+    {
+        date: "Jan 20, 2024",
+        value: 2180,
+    },
+    {
+        date: "Jan 21, 2024",
+        value: 2250,
+    },
+    {
+        date: "Jan 22, 2024",
+        value: 2320,
+    },
+    {
+        date: "Jan 23, 2024",
+        value: 2390,
+    },
+    {
+        date: "Jan 24, 2024",
+        value: 2460,
+    },
+    {
+        date: "Jan 25, 2024",
+        value: 2530,
+    },
+    {
+        date: "Jan 26, 2024",
+        value: 2600,
+    },
+    {
+        date: "Jan 27, 2024",
+        value: 2670,
+    },
+    {
+        date: "Jan 28, 2024",
+        value: 2740,
+    },
+    {
+        date: "Jan 29, 2024",
+        value: 2810,
+    },
+    {
+        date: "Jan 30, 2024",
+        value: 2880,
+    },
+    {
+        date: "Jan 31, 2024",
+        value: 2950,
+    },
+    {
         date: "Feb 1, 2024",
-        value: 743,
+        value: 900,
     },
     {
         date: "Feb 2, 2024",
-        value: 891,
+        value: 980,
     },
     {
         date: "Feb 3, 2024",
-        value: 1105,
+        value: 1060,
     },
     {
         date: "Feb 4, 2024",
-        value: 678,
+        value: 1140,
     },
     {
         date: "Feb 5, 2024",
-        value: 932,
+        value: 1220,
     },
     {
         date: "Feb 6, 2024",
-        value: 1012,
+        value: 1300,
     },
     {
         date: "Feb 7, 2024",
-        value: 802,
+        value: 1380,
     },
     {
         date: "Feb 8, 2024",
-        value: 1156,
+        value: 1460,
     },
     {
         date: "Feb 9, 2024",
-        value: 987,
+        value: 1540,
     },
     {
         date: "Feb 10, 2024",
-        value: 803,
+        value: 1620,
     },
     {
         date: "Feb 11, 2024",
-        value: 1145,
+        value: 1700,
     },
     {
         date: "Feb 12, 2024",
-        value: 678,
+        value: 1780,
     },
     {
         date: "Feb 13, 2024",
-        value: 945,
+        value: 1860,
     },
     {
         date: "Feb 14, 2024",
-        value: 819,
+        value: 1940,
     },
     {
         date: "Feb 15, 2024",
-        value: 1098,
+        value: 2020,
     },
     {
         date: "Feb 16, 2024",
-        value: 743,
+        value: 2100,
     },
     {
         date: "Feb 17, 2024",
-        value: 1065,
+        value: 2180,
     },
     {
         date: "Feb 18, 2024",
-        value: 912,
+        value: 2260,
     },
     {
         date: "Feb 19, 2024",
-        value: 678,
+        value: 2340,
     },
     {
         date: "Feb 20, 2024",
-        value: 1034,
+        value: 2420,
     },
     {
         date: "Feb 21, 2024",
-        value: 785,
+        value: 2500,
     },
     {
         date: "Feb 22, 2024",
-        value: 1189,
+        value: 2580,
     },
     {
         date: "Feb 23, 2024",
-        value: 879,
+        value: 2660,
     },
     {
         date: "Feb 24, 2024",
-        value: 1002,
+        value: 2740,
     },
     {
         date: "Feb 25, 2024",
-        value: 1233,
+        value: 2820,
     },
     {
         date: "Feb 26, 2024",
-        value: 988,
+        value: 2900,
     },
     {
         date: "Feb 27, 2024",
-        value: 1157,
+        value: 2980,
     },
     {
         date: "Feb 28, 2024",
-        value: 809,
+        value: 3060,
     },
     {
         date: "Feb 29, 2024",
-        value: 1102,
+        value: 3140,
     },
     {
         date: "Mar 1, 2024",
-        value: 702,
+        value: 3220,
     },
 ];
 
-
-  

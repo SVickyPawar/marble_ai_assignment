@@ -414,7 +414,7 @@ const UpdatedChart: React.FC = () => {
 					<div className="w-full px-4 flex bg-white" ref={calendarRef}>
                         <p className="font-semibold">Select date range: </p>
 						<input
-							className="ml-4 text-center w-1/5 border-2 "
+							className="ml-4 text-center w-1/5 border-2 rounded hover:text-gray-400 cursor-pointer"
 							type="text"
 							value={`${startD} - ${endD}`}
 							placeholder="Select Dates"
