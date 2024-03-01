@@ -32,6 +32,10 @@ Your application will be accessible at http://localhost:5173
 <br/>
 
 
+### Deployed link
+
+https://marble-ai-assignment.vercel.app/
+
 ### Project presentation video
 
 https://drive.google.com/file/d/1OVMTriq8f3H5M1QhcUVC7rnH_9WUCjR0/view?usp=sharing
