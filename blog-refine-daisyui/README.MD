@@ -23,7 +23,7 @@ npm run dev
 ```
 Your application will be accessible at http://localhost:5173
 
-##Features
+## Features
 1. Data visualization by month and year.
 2. Date range picker available
 3. Comaparison of data in tooltip
@@ -31,11 +31,11 @@ Your application will be accessible at http://localhost:5173
 
 <br/>
 
-###Deployed link:
+### Deployed link:
 
 https://marbleai-webapp.netlify.app/dashboard
 
-###Project presentation video
+### Project presentation video
 
 https://drive.google.com/file/d/1OVMTriq8f3H5M1QhcUVC7rnH_9WUCjR0/view?usp=sharing
 
