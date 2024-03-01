@@ -244,6 +244,126 @@
         date: "Mar 1, 2024",
         value: 980,
     },
+    {
+        date: "Mar 2, 2024",
+        value: 1150,
+    },
+    {
+        date: "Mar 3, 2024",
+        value: 1250,
+    },
+    {
+        date: "Mar 4, 2024",
+        value: 1350,
+    },
+    {
+        date: "Mar 5, 2024",
+        value: 1200,
+    },
+    {
+        date: "Mar 6, 2024",
+        value: 1180,
+    },
+    {
+        date: "Mar 7, 2024",
+        value: 1300,
+    },
+    {
+        date: "Mar 8, 2024",
+        value: 1270,
+    },
+    {
+        date: "Mar 9, 2024",
+        value: 1220,
+    },
+    {
+        date: "Mar 10, 2024",
+        value: 1350,
+    },
+    {
+        date: "Mar 11, 2024",
+        value: 1400,
+    },
+    {
+        date: "Mar 12, 2024",
+        value: 1380,
+    },
+    {
+        date: "Mar 13, 2024",
+        value: 1420,
+    },
+    {
+        date: "Mar 14, 2024",
+        value: 1370,
+    },
+    {
+        date: "Mar 15, 2024",
+        value: 1300,
+    },
+    {
+        date: "Mar 16, 2024",
+        value: 1250,
+    },
+    {
+        date: "Mar 17, 2024",
+        value: 1220,
+    },
+    {
+        date: "Mar 18, 2024",
+        value: 1270,
+    },
+    {
+        date: "Mar 19, 2024",
+        value: 1350,
+    },
+    {
+        date: "Mar 20, 2024",
+        value: 1420,
+    },
+    {
+        date: "Mar 21, 2024",
+        value: 1380,
+    },
+    {
+        date: "Mar 22, 2024",
+        value: 1450,
+    },
+    {
+        date: "Mar 23, 2024",
+        value: 1500,
+    },
+    {
+        date: "Mar 24, 2024",
+        value: 1470,
+    },
+    {
+        date: "Mar 25, 2024",
+        value: 1520,
+    },
+    {
+        date: "Mar 26, 2024",
+        value: 1550,
+    },
+    {
+        date: "Mar 27, 2024",
+        value: 1600,
+    },
+    {
+        date: "Mar 28, 2024",
+        value: 1580,
+    },
+    {
+        date: "Mar 29, 2024",
+        value: 1630,
+    },
+    {
+        date: "Mar 30, 2024",
+        value: 1680,
+    },
+    {
+        date: "Mar 31, 2024",
+        value: 1650,
+    },
 ];
 
 
@@ -491,7 +611,127 @@ export const secondData = [
     },
     {
         date: "Mar 1, 2024",
-        value: 3220,
+        value: 980,
+    },
+    {
+        date: "Mar 2, 2024",
+        value: 1080,
+    },
+    {
+        date: "Mar 3, 2024",
+        value: 1190,
+    },
+    {
+        date: "Mar 4, 2024",
+        value: 1300,
+    },
+    {
+        date: "Mar 5, 2024",
+        value: 1175,
+    },
+    {
+        date: "Mar 6, 2024",
+        value: 1160,
+    },
+    {
+        date: "Mar 7, 2024",
+        value: 1270,
+    },
+    {
+        date: "Mar 8, 2024",
+        value: 1235,
+    },
+    {
+        date: "Mar 9, 2024",
+        value: 1180,
+    },
+    {
+        date: "Mar 10, 2024",
+        value: 1305,
+    },
+    {
+        date: "Mar 11, 2024",
+        value: 1370,
+    },
+    {
+        date: "Mar 12, 2024",
+        value: 1355,
+    },
+    {
+        date: "Mar 13, 2024",
+        value: 1395,
+    },
+    {
+        date: "Mar 14, 2024",
+        value: 1340,
+    },
+    {
+        date: "Mar 15, 2024",
+        value: 1275,
+    },
+    {
+        date: "Mar 16, 2024",
+        value: 1225,
+    },
+    {
+        date: "Mar 17, 2024",
+        value: 1210,
+    },
+    {
+        date: "Mar 18, 2024",
+        value: 1265,
+    },
+    {
+        date: "Mar 19, 2024",
+        value: 1335,
+    },
+    {
+        date: "Mar 20, 2024",
+        value: 1390,
+    },
+    {
+        date: "Mar 21, 2024",
+        value: 1355,
+    },
+    {
+        date: "Mar 22, 2024",
+        value: 1420,
+    },
+    {
+        date: "Mar 23, 2024",
+        value: 1475,
+    },
+    {
+        date: "Mar 24, 2024",
+        value: 1450,
+    },
+    {
+        date: "Mar 25, 2024",
+        value: 1505,
+    },
+    {
+        date: "Mar 26, 2024",
+        value: 1545,
+    },
+    {
+        date: "Mar 27, 2024",
+        value: 1790,
+    },
+    {
+        date: "Mar 28, 2024",
+        value: 1565,
+    },
+    {
+        date: "Mar 29, 2024",
+        value: 1715,
+    },
+    {
+        date: "Mar 30, 2024",
+        value: 1605,
+    },
+    {
+        date: "Mar 31, 2024",
+        value: 1800,
     },
 ];
 
