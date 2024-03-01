@@ -31,9 +31,6 @@ Your application will be accessible at http://localhost:5173
 
 <br/>
 
-### Deployed link:
-
-https://marbleai-webapp-v2.netlify.app/dashboard
 
 ### Project presentation video
 
